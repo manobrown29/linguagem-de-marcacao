@@ -25,20 +25,19 @@ html, body {
 header {
 	background-color: lightseagreen;
 	display: flex;
-	height: 200px;
+	height: 25vh;
 	justify-content: center;
-	padding-top: 30px;
 }
 
 main{
 	display: flex;
 	gap: 20px;
+	height: 50vh;
 }
 
 aside {
 	background-color: coral;
 	display: flex;
-	height: 450px;
 	width: 25%;
 	justify-content: center;
 }
@@ -46,7 +45,6 @@ aside {
 section {
 	background-color: beige;
 	display: flex;
-	height: 450px;
 	width: 100%;
 	justify-content: center;
 }
@@ -54,6 +52,6 @@ section {
 footer {
 	background-color: mediumaquamarine;
 	display: flex;
-	height: 28vh;
+	height: 25vh;
 	justify-content: center;
 }
