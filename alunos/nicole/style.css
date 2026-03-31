@@ -1,0 +1,68 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**
+ * 🗒️ Layout básico - Flexbox
+ * =======================================================================================================
+ * 
+ *
+ * Utilizando os conceitos e propriedades de flexbox, estilize
+ * a página index.html a partir deste style.css, de forma a alcançar
+ * o layout exibido no arquivo layout.png
+ *
+ * > Dicas
+ * - A propriedade display: flex deve estar no container
+ * - Por padrão, os elementos de bloco do HTML tem a altura necessária para exibir
+ *   seu conteúdo. Especifique alturas (fixas: height ou mínimas, min-height) para ter maior controle.
+ * - Consulte a documentação das propriedades CSS, pesquise por artigos e explicações, em caso de dúvidas
+ *   sobre como utilizá-los. 
+ * - Altere e acrescente seletores para novas regras CSS à vontade.
+ */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  p {
+    text-align: center;
+  }
+}
+
+.f-width {
+  display: flex;
+  min-height: 20vh;
+}
+
+header {
+  background-color: lightseagreen;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  min-height: 60vh;
+	gap: 1.5rem;
+}
+
+aside {
+  background-color: coral;
+  flex-grow: 1;
+}
+
+section {
+  background-color: beige;
+  flex-grow: 4;
+}
+
+footer {
+  background-color: mediumaquamarine;
+  min-height: 100%;
+  min-width: 100%;
+}
