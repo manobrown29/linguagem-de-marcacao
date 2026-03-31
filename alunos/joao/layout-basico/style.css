@@ -1,0 +1,87 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+	background-color: lightseagreen;
+	display: flex;
+	justify-content: center;
+	height: 25vh;
+}
+
+header p{
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+main{
+	display: flex;
+	gap: 40px;
+}
+
+aside {
+	background-color: coral;
+	display: flex;
+	justify-content: center;
+	width: 20%;
+	height: 50vh;
+}
+
+aside p{
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+section{
+	display: flex;
+	justify-content: center;
+	width: 80%;
+}
+
+section p{
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+footer{
+	display: flex;
+	height: 25vh;
+	justify-content: center;
+}
+
+footer p {
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+
+/**
+ * 🗒️ Layout básico - Flexbox
+ * =======================================================================================================
+ * 
+ *
+ * Utilizando os conceitos e propriedades de flexbox, estilize
+ * a página index.html a partir deste style.css, de forma a alcançar
+ * o layout exibido no arquivo layout.png
+ *
+ * > Dicas
+ * - A propriedade display: flex deve estar no container
+ * - Por padrão, os elementos de bloco do HTML tem a altura necessária para exibir
+ *   seu conteúdo. Especifique alturas (fixas: height ou mínimas, min-height) para ter maior controle.
+ * - Consulte a documentação das propriedades CSS, pesquise por artigos e explicações, em caso de dúvidas
+ *   sobre como utilizá-los. 
+ * - Altere e acrescente seletores para novas regras CSS à vontade.
+ */
+
+
+
+section {
+	background-color: beige;
+}
+
+footer {
+	background-color: mediumaquamarine;
+}
