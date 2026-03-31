@@ -36,6 +36,7 @@ aside p{
 }
 
 section{
+	background-color: beige;
 	display: flex;
 	justify-content: center;
 	width: 80%;
@@ -47,6 +48,7 @@ section p{
 }
 
 footer{
+	background-color: mediumaquamarine;
 	display: flex;
 	height: 25vh;
 	justify-content: center;
@@ -78,10 +80,3 @@ footer p {
 
 
 
-section {
-	background-color: beige;
-}
-
-footer {
-	background-color: mediumaquamarine;
-}
