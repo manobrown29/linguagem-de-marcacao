@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: antiquewhite;
+  font-family: sans-serif;
+  padding: 30px;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 450px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: all.3s ease;
+
+}
+
+article:hover {
+  opacity: 0.8;
+}
+
+
+article code {
+  color: tomato;
+  background-color: whitesmoke;
+  padding: 0.3em 0.6em;
+  margin-bottom: 20px;
+}
+
+.guide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.guide p {
+  border-radius: 20px;
+  background-color: rgb(195, 23, 243);
+  padding: 5px 15px;
+  font-size: .8rem;
+  color: #fff;
+}
+
+.guide p:last-child {
+  background-color: rgba(236, 114, 48, 0.554);
+  color: rgb(201, 56, 56);
+
+
+}
+
+.guide .flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+article .text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.175);
+  padding-bottom: 20px;
+}
+
+article .text-box p {
+  font-size: 1rem;
+  color: #08348dbb;
+  line-height: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+article h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.time-text {
+  display: flex;
+  justify-self: end;
+  align-self: flex-end;
+  margin-top: 20px;
+}
