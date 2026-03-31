@@ -1,10 +1,28 @@
 body {
-  background: antiquewhite;
-  font-family: sans-serif;
+	background: antiquewhite;
+	font-family: sans-serif;
 }
 
 code {
-  color: tomato;
-  background-color: whitesmoke;
-  padding: 0.3em 0.6em;
+	color: tomato;
+	background-color: whitesmoke;
+	padding: 0.3em 0.6em;
 }
+
+/**
+ * 🗒️ Cards - Flexbox
+ * =======================================================================================================
+ * 
+ * Utilizando os conceitos e propriedades de flexbox, estilize
+ * a página index.html a partir deste style.css, do modo a experimentar
+ * com a exibição de cartões (cards) em uma página.
+ *
+ * Chamamos de cards o componente visual que geralmente agrupa 
+ * em um retângulo informações, como título, descrição, imagem,
+ * etc, de uma notícia ou outro tipo de conteúdo qualquer.
+ *
+ * > Dicas
+ * - A propriedade display: flex deve estar no container
+ * - Consulte a documentação das propriedades CSS, pesquise por artigos e explicações, em caso de dúvidas sobre como utilizá-los. 
+ * - Altere e acrescente seletores para novas regras CSS à vontade.
+ */
